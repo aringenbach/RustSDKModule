@@ -14,10 +14,10 @@ let package = Package(
             targets: ["RustSDKModule"]),
     ],
     dependencies: [
-        // Note: at the moment this expects to be in a folder at the same hierarchy
-        // level as the Element-X folder. This path should be generated upon installing
-        // the package instead.
-        .package(path: "../../element-x-ios/Modules/ModuleSDK"),
+        // Note: this could either point to the local ModuleSDK inside ElementX folder
+        // or a remote one
+        //.package(path: "../../element-x-ios/Modules/ModuleSDK"),
+        .package(url: "https://github.com/aringenbach/ModuleSDK", branch: "main"),
     ],
     targets: [
         .target(
