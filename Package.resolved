@@ -14,8 +14,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/aringenbach/ModuleSDK",
       "state" : {
-        "branch" : "main",
-        "revision" : "a97f46bb6334734a3adf483db74469f47b3b88d0"
+        "revision" : "a97f46bb6334734a3adf483db74469f47b3b88d0",
+        "version" : "0.0.1"
       }
     }
   ],

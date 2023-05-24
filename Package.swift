@@ -17,7 +17,7 @@ let package = Package(
         // Note: this could either point to the local ModuleSDK inside ElementX folder
         // or a remote one
         //.package(path: "../../element-x-ios/Modules/ModuleSDK"),
-        .package(url: "https://github.com/aringenbach/ModuleSDK", branch: "main"),
+        .package(url: "https://github.com/aringenbach/ModuleSDK", exact: "0.0.1"),
     ],
     targets: [
         .target(
