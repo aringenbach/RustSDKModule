@@ -8,15 +8,6 @@
         "revision" : "937bd40d601b59d676c18e466fd111925e498799",
         "version" : "1.0.65-alpha"
       }
-    },
-    {
-      "identity" : "modulesdk",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/aringenbach/ModuleSDK",
-      "state" : {
-        "revision" : "a97f46bb6334734a3adf483db74469f47b3b88d0",
-        "version" : "0.0.1"
-      }
     }
   ],
   "version" : 2
